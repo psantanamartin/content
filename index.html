@@ -3,20 +3,54 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pablo Santana · Artículos</title>
-<meta name="description" content="Artículos y reflexiones de Pablo Santana.">
+<title>Pablo Santana</title>
+<meta name="description" content="Sé de quién me he fiado. — I know whom I have believed. (2 Tim 1,12)">
+<meta property="og:title" content="Pablo Santana">
+<meta property="og:description" content="Sé de quién me he fiado. — I know whom I have believed. (2 Tim 1,12)">
 <link rel="stylesheet" href="estilos.css">
+<style>
+  html, body { height: 100%; }
+  .lienzo {
+    min-height: 100vh;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  .lienzo blockquote { margin: 0; max-width: 36rem; }
+  .lienzo .es {
+    font-size: clamp(1.9rem, 6vw, 3.2rem);
+    line-height: 1.2;
+    margin: 0;
+  }
+  .lienzo .en {
+    font-size: clamp(1.05rem, 2.8vw, 1.4rem);
+    font-style: italic;
+    color: var(--suave);
+    margin: 1.2rem 0 0;
+  }
+  .lienzo cite {
+    display: block;
+    margin-top: 2.2rem;
+    font-style: normal;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--acento);
+  }
+</style>
 </head>
 <body>
-<main class="contenedor">
-<div class="cabecera"><a href="./">Pablo Santana · Artículos</a></div>
-<h1>Artículos</h1>
-<ul class="lista">
-  <li>
-    <a href="dios-en-las-tragedias/">¿Dónde está Dios cuando hay una tragedia?</a>
-    <span class="fecha">29 de octubre de 2026</span>
-  </li>
-</ul>
+<main class="lienzo">
+  <blockquote>
+    <p class="es">Sé de quién me he fiado.</p>
+    <p class="en" lang="en">I know whom I have believed.</p>
+    <cite>2 Tim 1,12</cite>
+  </blockquote>
 </main>
 </body>
 </html>
